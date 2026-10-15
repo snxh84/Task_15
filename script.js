@@ -40,7 +40,7 @@ if (typeof document !== "undefined") {
     const out = document.getElementById("output");
     if (out) {
       out.textContent =
-        "Example Array:-" + JSON.stringify(arr) + "\n" +
+        "Array:-" + JSON.stringify(arr) + "\n" +
         "Maximum number:" + findMax(arr) + "\n" +
         "Sum of all elements:" + calculateSum(arr) + "\n" +
         "Count of odd numbers:" + countOddNumbers(arr);
